@@ -1,0 +1,128 @@
+body{
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+html{
+  height: 100vh;
+}
+section{
+  margin: 0px;
+  /*color:white;*/
+}
+#left{
+    background-color:gray;
+    position: absolute;
+    margin-top: 0px;
+    width: 170px;
+    height: 100vh;
+    /* height: 665px; */
+}
+div{
+  margin-top: -20px;
+  height: 25vh;
+  /* height: 166px;  */
+}
+
+/*usando class*/
+.Celeste{
+  background-color:rgb(19, 187, 209);
+  margin-left: 170px;
+
+}
+.Amarillo{
+background-color: rgb(197, 238, 14);
+margin-left: 170px;
+ 
+}
+.Naranjo{
+background-color: orange;
+margin-left: 170px;
+
+}
+.Rojo{
+background-color: red;
+margin-left: 170px;
+
+}
+/*cambiando colores a las etiquetas*/
+h1,p{
+  /* margin-left: 10%; */
+  text-align: center;
+  
+
+}
+/* le sacamos la linea al enlace*/
+ul{
+  font-size: 18px;
+  /*outline: 1px solid YELLOW;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  line-height: 30px;
+}
+
+li{
+  /*outline: 1px solid red;*/
+  background: #f5f5f0;
+}
+
+a{
+  /*outline: 1px solid green;*/
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+
+a:hover{
+ background: #d1d3d0;
+}
+
+a:active {
+  background: #333;
+  color: white;
+}
+
+ul li:first-child{
+background: transparent;
+}
+ul li:first-child a {
+  color: white;
+}
+
+ul li:first-child a:hover{
+  color: black;
+}
+
+ul li:first-child a:active{
+  color: white;
+}
+
+
+/*USANDO ID*/
+
+
+/*div ol li{
+  color: black;
+}*/
+
+/*llamando al primer hijo de ol*/
+/*li:first-child{
+  color: yellow
+}*/
+
+/*Llamando al li siguiente del primero*/
+li:first-of-type + li{
+  color: white;
+}
+
+/*llamando al ultimo hijo de ol*/
+/*li:last-child{
+  color:orange;
+}*/
+
+
+/*body tiene 8px por defecto*/
+
